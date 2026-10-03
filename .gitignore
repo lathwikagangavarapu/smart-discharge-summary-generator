@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Production builds
+build/
+dist/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Kilo tooling state
+.kilo/
